@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		913DC0062239473500EE6900 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 913DC0052239473500EE6900 /* AppDelegate.m */; };
+		913DC0092239473500EE6900 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913DC0082239473500EE6900 /* ViewController.m */; };
+		913DC00C2239473500EE6900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913DC00A2239473500EE6900 /* Main.storyboard */; };
+		913DC00E2239473C00EE6900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913DC00D2239473C00EE6900 /* Assets.xcassets */; };
+		913DC0112239473C00EE6900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913DC00F2239473C00EE6900 /* LaunchScreen.storyboard */; };
+		913DC0142239473C00EE6900 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 913DC0132239473C00EE6900 /* main.m */; };
+		913DC01C223947A300EE6900 /* TouchPositioning_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 913DC01B223947A300EE6900 /* TouchPositioning_ViewController.m */; };
+		913DC01F223948CC00EE6900 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913DC01E223948CC00EE6900 /* CoreLocation.framework */; };
+		913DC02122394B8A00EE6900 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 913DC02022394B8A00EE6900 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		913DC0012239473500EE6900 /* TouchPositioning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPositioning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		913DC0042239473500EE6900 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		913DC0052239473500EE6900 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		913DC0072239473500EE6900 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		913DC0082239473500EE6900 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		913DC00B2239473500EE6900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		913DC00D2239473C00EE6900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		913DC0102239473C00EE6900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		913DC0122239473C00EE6900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		913DC0132239473C00EE6900 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		913DC01A223947A300EE6900 /* TouchPositioning_ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchPositioning_ViewController.h; sourceTree = "<group>"; };
+		913DC01B223947A300EE6900 /* TouchPositioning_ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPositioning_ViewController.m; sourceTree = "<group>"; };
+		913DC01E223948CC00EE6900 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		913DC02022394B8A00EE6900 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		913DBFFE2239473500EE6900 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913DC02122394B8A00EE6900 /* MapKit.framework in Frameworks */,
+				913DC01F223948CC00EE6900 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		913DBFF82239473500EE6900 = {
+			isa = PBXGroup;
+			children = (
+				913DC0032239473500EE6900 /* TouchPositioning */,
+				913DC0022239473500EE6900 /* Products */,
+				913DC01D223948CC00EE6900 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		913DC0022239473500EE6900 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913DC0012239473500EE6900 /* TouchPositioning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		913DC0032239473500EE6900 /* TouchPositioning */ = {
+			isa = PBXGroup;
+			children = (
+				913DC0042239473500EE6900 /* AppDelegate.h */,
+				913DC0052239473500EE6900 /* AppDelegate.m */,
+				913DC01A223947A300EE6900 /* TouchPositioning_ViewController.h */,
+				913DC01B223947A300EE6900 /* TouchPositioning_ViewController.m */,
+				913DC0072239473500EE6900 /* ViewController.h */,
+				913DC0082239473500EE6900 /* ViewController.m */,
+				913DC00A2239473500EE6900 /* Main.storyboard */,
+				913DC00D2239473C00EE6900 /* Assets.xcassets */,
+				913DC00F2239473C00EE6900 /* LaunchScreen.storyboard */,
+				913DC0122239473C00EE6900 /* Info.plist */,
+				913DC0132239473C00EE6900 /* main.m */,
+			);
+			path = TouchPositioning;
+			sourceTree = "<group>";
+		};
+		913DC01D223948CC00EE6900 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				913DC02022394B8A00EE6900 /* MapKit.framework */,
+				913DC01E223948CC00EE6900 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		913DC0002239473500EE6900 /* TouchPositioning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913DC0172239473C00EE6900 /* Build configuration list for PBXNativeTarget "TouchPositioning" */;
+			buildPhases = (
+				913DBFFD2239473500EE6900 /* Sources */,
+				913DBFFE2239473500EE6900 /* Frameworks */,
+				913DBFFF2239473500EE6900 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchPositioning;
+			productName = TouchPositioning;
+			productReference = 913DC0012239473500EE6900 /* TouchPositioning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		913DBFF92239473500EE6900 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HJ;
+				TargetAttributes = {
+					913DC0002239473500EE6900 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 913DBFFC2239473500EE6900 /* Build configuration list for PBXProject "TouchPositioning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 913DBFF82239473500EE6900;
+			productRefGroup = 913DC0022239473500EE6900 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				913DC0002239473500EE6900 /* TouchPositioning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		913DBFFF2239473500EE6900 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913DC0112239473C00EE6900 /* LaunchScreen.storyboard in Resources */,
+				913DC00E2239473C00EE6900 /* Assets.xcassets in Resources */,
+				913DC00C2239473500EE6900 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		913DBFFD2239473500EE6900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				913DC01C223947A300EE6900 /* TouchPositioning_ViewController.m in Sources */,
+				913DC0092239473500EE6900 /* ViewController.m in Sources */,
+				913DC0142239473C00EE6900 /* main.m in Sources */,
+				913DC0062239473500EE6900 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		913DC00A2239473500EE6900 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913DC00B2239473500EE6900 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		913DC00F2239473C00EE6900 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				913DC0102239473C00EE6900 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		913DC0152239473C00EE6900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		913DC0162239473C00EE6900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		913DC0182239473C00EE6900 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				INFOPLIST_FILE = TouchPositioning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZG.TouchPositioning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		913DC0192239473C00EE6900 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7B275JG2T;
+				INFOPLIST_FILE = TouchPositioning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZG.TouchPositioning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		913DBFFC2239473500EE6900 /* Build configuration list for PBXProject "TouchPositioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913DC0152239473C00EE6900 /* Debug */,
+				913DC0162239473C00EE6900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		913DC0172239473C00EE6900 /* Build configuration list for PBXNativeTarget "TouchPositioning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				913DC0182239473C00EE6900 /* Debug */,
+				913DC0192239473C00EE6900 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 913DBFF92239473500EE6900 /* Project object */;
+}
